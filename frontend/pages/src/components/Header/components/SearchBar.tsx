@@ -19,7 +19,7 @@ const StyledSearch = styled.div`
     height: 55px;
     position: relative;
     overflow: hidden;
-    border-radius: 26px 0 0 26px;
+    border-radius: 12px 0 0 12px;
     box-shadow: 0 10px 30px rgba(#414856, 0.05);
     display: flex;
     justify-content: center;
@@ -116,7 +116,7 @@ const StyledSearch = styled.div`
     width: -webkit-fill-available;
     height: 55px;
     /* background-color: #00adb5; */
-    border-radius: 0 26px 26px 0;
+    border-radius: 0 12px 12px 0;
     background: #eeeeee;
     box-shadow: 5px 5px 10px #5a5a5a, -5px -5px 10px #ffffff;
     display: flex;
@@ -145,7 +145,7 @@ const StyledSearch = styled.div`
     width: 80%;
     height: 100%;
     transition: 0.2s;
-    border-radius: 0 26px 26px 0;
+    border-radius: 0 12px 12px 0;
     display: flex;
     justify-content: center;
     align-items: center;
