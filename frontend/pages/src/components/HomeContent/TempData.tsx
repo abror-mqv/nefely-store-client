@@ -13,9 +13,9 @@ export const TempData = {
                 },
                 {
                     name: "iPhone 13 pro",
-                    mem: [256, 512, 1024],
-                    clean_price: [108800, 121550, 134300],
-                    monthly_price: [6800, 8900, 12300],
+                    mem: [256,  1024],
+                    clean_price: [108800,  134300],
+                    monthly_price: [6800,  12300],
                 },
                 {
                     name: "iPhone 13 pro",
@@ -23,6 +23,7 @@ export const TempData = {
                     clean_price: [108800, 121550, 134300],
                     monthly_price: [6800, 8900, 12300],
                 },
+                
                 {
                     name: "iPhone 13 pro",
                     mem: [256, 512, 1024],

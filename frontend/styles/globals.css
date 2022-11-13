@@ -28,3 +28,8 @@ a{
   color: #393E46;
   font-size: 18px;
 }
+
+.swiper-button-next, .swiper-button-prev{
+  --swiper-theme-color: #00adb5;
+  height: 80px;
+}
