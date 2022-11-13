@@ -68,7 +68,7 @@ function NavBar() {
         {TempData.data.map((el) => {
           return (
             <>
-              <Link href={`#${el.id}`} className="nav__cat">
+              <a href={`#${el.id}`} className="nav__cat">
                 <Image
                   src={el.image.src}
                   alt={el.name}
@@ -76,7 +76,7 @@ function NavBar() {
                   height={42}
                 />
                 {el.name}
-              </Link>
+              </a>
               {/* <div className="division"></div> */}
             </>
           );

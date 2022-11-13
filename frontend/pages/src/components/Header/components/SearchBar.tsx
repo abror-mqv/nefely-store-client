@@ -6,7 +6,6 @@ import Link from "next/link";
 const StyledSearch = styled.div`
   height: 100%;
   width: 100%;
-  font: 400 16px "Varela Round", sans-serif;
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
@@ -14,6 +13,7 @@ const StyledSearch = styled.div`
   gap: 24px;
  
   .search {
+    
     background: #eeeeee;
     width: auto;
     height: 55px;
@@ -29,7 +29,6 @@ const StyledSearch = styled.div`
       position: relative;
       width: 90px;
       height: 55px;
-      font: 400 16px "Varela Round", sans-serif;
       color: #414856;
       border: 0;
       box-sizing: border-box;

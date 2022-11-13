@@ -5,9 +5,10 @@ import SearchBar from "./components/SearchBar";
 const StyledHeader = styled.header`
   background-color: #EEEEEE;
   display: flex;
-  padding: 20px;
+  padding: 20px 0;
   width: 80%;
   margin: 0 auto;
+ 
 `;
 
 function Header() {
