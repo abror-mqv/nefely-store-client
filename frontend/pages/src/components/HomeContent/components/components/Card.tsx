@@ -51,7 +51,7 @@ function Card(props: any) {
       }
       .picked {
         background-color: #${props.color};
-        transform: translateY(-px) scale(112%);
+        transform: translateY(-4px) scale(112%);
         transition: 0.2s;
         color: #ffffff;
       }
