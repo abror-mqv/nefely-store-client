@@ -3,8 +3,9 @@ import styled from "styled-components";
 import Compilation from "./components/Compilation";
 import { TempData } from "./TempData";
 
+
 const StyledHomeContent = styled.div`
- 
+
 `;
 
 function HomeContent() {
